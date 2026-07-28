@@ -1,6 +1,6 @@
 # Qualitative failure cases
 
-Anonymous supplementary material for reviewer inspection. This repository presents two saved cases using GPT-4o (model identifier: \`gpt-4o-2024-11-20\`). The examples are intended to make the failure modes concrete; they are qualitative illustrations, not new aggregate estimates.
+Anonymous supplementary material for reviewer inspection. This repository presents two saved cases using GPT-4o. The examples are intended to make the failure modes concrete; they are qualitative illustrations, not new aggregate estimates.
 
 ## Overview
 
@@ -17,7 +17,7 @@ The question asks where the object actually ends up, so it does not require beli
 
 | Record field | Value |
 |---|---|
-| Model | GPT-4o (\`gpt-4o-2024-11-20\`) |
+| Model | GPT-4o |
 | Probe ID | \`s3_sally_anne_reality_000\` |
 
 ### Panel strip
@@ -109,7 +109,7 @@ This is a text-only failure with the full ground-truth narration. The returning 
 
 | Record field | Value |
 |---|---|
-| Model | GPT-4o (\`gpt-4o-2024-11-20\`) |
+| Model | GPT-4o |
 | Probe ID | \`s3_two_rooms_000\` |
 
 ### Panel strip
