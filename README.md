@@ -1,6 +1,6 @@
 # Qualitative failure cases
 
-Anonymous supplementary material for reviewer inspection. This repository presents two saved cases from the same evaluation model and probe family. The examples are intended to make the failure modes concrete; they are qualitative illustrations, not new aggregate estimates.
+Anonymous supplementary material for reviewer inspection. This repository presents two saved cases using GPT-4o (model identifier: \`gpt-4o-2024-11-20\`). The examples are intended to make the failure modes concrete; they are qualitative illustrations, not new aggregate estimates.
 
 ## Overview
 
@@ -14,6 +14,11 @@ Condition labels: **A** = visual-only input; **B<sub>p</sub>** = perceptual scaf
 ## Example 1: visual-only failure recovered by scaffolds
 
 The question asks where the object actually ends up, so it does not require belief attribution. The correct answer is **right**.
+
+| Record field | Value |
+|---|---|
+| Model | GPT-4o (\`gpt-4o-2024-11-20\`) |
+| Probe ID | \`s3_sally_anne_reality_000\` |
 
 ### Panel strip
 
@@ -101,6 +106,11 @@ purple and orange are in a room with a left mint container and a right violet co
 ## Example 2: failure at the text-only ceiling
 
 This is a text-only failure with the full ground-truth narration. The returning agent watched the object enter the right room before leaving, but the model answers **left**. The response applies an absent-agent/old-location heuristic instead of tracking what the agent actually witnessed.
+
+| Record field | Value |
+|---|---|
+| Model | GPT-4o (\`gpt-4o-2024-11-20\`) |
+| Probe ID | \`s3_two_rooms_000\` |
 
 ### Panel strip
 
