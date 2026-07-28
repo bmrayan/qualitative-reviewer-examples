@@ -8,6 +8,8 @@ The question asks for the object's actual final location, so no belief attributi
 
 ### Panel strip
 
+![Example 1 panel strip](images/example1_panel_strip.png)
+
 | Panel | Scene summary |
 |---|---|
 | 1 | Purple and orange are present; the pink object is near the left mint container and purple places it there. |
@@ -76,6 +78,8 @@ The saved comparison shows a failure from pixels that is recovered when the tran
 This is a text-only failure with the full ground-truth narration. The returning agent watched the object enter the right room before leaving, but the model answers **left**. The error over-applies an absent-agent/old-location heuristic instead of tracking what the agent witnessed.
 
 ### Panel strip
+
+![Example 2 panel strip](images/example2_panel_strip.png)
 
 | Event | Scene summary |
 |---|---|
