@@ -1,6 +1,6 @@
 # Qualitative failure cases
 
-Anonymous supplementary material for reviewer inspection. This repository presents two saved cases using GPT-4o. The examples are intended to make the failure modes concrete; they are qualitative illustrations, not new aggregate estimates.
+This repository accompanies our author response to Reviewer 11Gb, who asked for concrete examples, including failure cases at the text-only ceiling. It presents two saved cases from the same evaluation model (GPT-4o) and probe family. The examples are intended to make the requested failure modes concrete; they are qualitative illustrations, not new aggregate estimates.
 
 ## Overview
 
